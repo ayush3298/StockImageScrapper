@@ -26,4 +26,4 @@ class Scrapper:
 
 
 s = Scrapper()
-s.make_query()
+# s.make_query()

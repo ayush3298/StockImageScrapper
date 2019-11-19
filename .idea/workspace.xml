@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="038186fc-21a5-451b-94e8-a36fd39587ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commen/Downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commen/file_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ImageSrapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ImageSrapper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pexel/Scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pexel/Scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pexel/pexel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pexel/pexel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixbay/main_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pixbay/main_scrapper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +39,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pixbay" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pixbay" />
       <recent name="C:\Users\ADMIN\Desktop\ImageSrapper\pixbay" />
     </key>
   </component>
@@ -70,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Scrapper">
+  <component name="RunManager" selected="Python.Scrapper (1)">
     <configuration name="Downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImageSrapper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +77,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commen/Downloader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scrapper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ImageSrapper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pixbay" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pixbay/Scrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,9 +155,11 @@
       <item itemvalue="Python.main_scrapper" />
       <item itemvalue="Python.Scrapper" />
       <item itemvalue="Python.Downloader" />
+      <item itemvalue="Python.Scrapper (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Scrapper (1)" />
         <item itemvalue="Python.Scrapper" />
         <item itemvalue="Python.Downloader" />
         <item itemvalue="Python.main_scrapper" />
@@ -160,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574093083962</updated>
-      <workItem from="1574149502214" duration="10711000" />
+      <workItem from="1574149502214" duration="14417000" />
     </task>
     <servers />
   </component>
@@ -179,7 +195,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StockImageScrapper$Scrapper.coverage" NAME="Scrapper Coverage Results" MODIFIED="1574163870748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pexel" />
+    <SUITE FILE_PATH="coverage/StockImageScrapper$Scrapper__1_.coverage" NAME="Scrapper (1) Coverage Results" MODIFIED="1574172679461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pixbay" />
+    <SUITE FILE_PATH="coverage/StockImageScrapper$Scrapper.coverage" NAME="Scrapper Coverage Results" MODIFIED="1574164242861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pexel" />
     <SUITE FILE_PATH="coverage/StockImageScrapper$Downloader.coverage" NAME="Downloader Coverage Results" MODIFIED="1574159443668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commen" />
   </component>
 </project>

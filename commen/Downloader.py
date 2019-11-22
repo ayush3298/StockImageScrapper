@@ -1,25 +1,36 @@
 import requests
 from requests.exceptions import MissingSchema
 from tqdm import tqdm
+import time
+from pathlib import Path
 
 
 def download_image(self, url):
     try:
         folder = self.image_store_dir + '/'
         local_filename = (folder + url.split('/')[-1]).replace('//', '/')
+        path = Path(url)
+        print(path.name)
+        # return
         # NOTE the stream=True parameter below
         if url.split('/')[-1] not in self.downloaded_images:
             with requests.get(url, stream=True) as r:
-                r.raise_for_status()
-                with open(local_filename, 'wb') as f:
-                    for chunk in tqdm(r.iter_content(chunk_size=1000)):
-                        if chunk:  # filter out keep-alive new chunks
-                            f.write(chunk)
+                if r.status_code != 429:
+                    r.raise_for_status()
+                    with open(local_filename, 'wb') as f:
+                        for chunk in tqdm(r.iter_content(chunk_size=1000)):
+                            if chunk:  # filter out keep-alive new chunks
+                                f.write(chunk)
                             # f.flush()
-            self.downloaded_images.append(url.split('/')[-1])
-            with open(self.downloaded_image_url_file, 'a') as f:
-                f.write(url.split('/')[-1] + '\n')
-            return local_filename
+                    self.downloaded_images.append(url.split('/')[-1])
+                    with open(self.downloaded_image_url_file, 'a') as f:
+                        f.write(url.split('/')[-1] + '\n')
+                    return local_filename
+                else:
+                    time.sleep(20)
+                    print('Too many requests, Sleeping for 20 seconds.')
+                    download_image(self, url)
+
         else:
             print(url.split('/')[-1] + ' Downloaded')
     except MissingSchema:

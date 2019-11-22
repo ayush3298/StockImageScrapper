@@ -1,10 +1,8 @@
-import os
 import configparser
 import logging
 import os
 import time
 import traceback
-from pprint import pprint
 
 import requests
 from bs4 import BeautifulSoup

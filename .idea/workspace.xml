@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="038186fc-21a5-451b-94e8-a36fd39587ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pixpree/Scrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commen/Downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/commen/Downloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pixbay/Scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pixbay/Scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixpree/Scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/pixpree/Scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pixpree/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pixpree/config.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ImageSrapper$Scrapper.coverage" NAME="Scrapper Coverage Results" MODIFIED="1574095087923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pexel" />
     <SUITE FILE_PATH="coverage/ImageSrapper$main_scrapper.coverage" NAME="main_scrapper Coverage Results" MODIFIED="1574094800365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pixbay" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -202,7 +215,7 @@
       <workItem from="1574149502214" duration="23774000" />
       <workItem from="1574248091013" duration="2012000" />
       <workItem from="1574320174869" duration="605000" />
-      <workItem from="1574409541159" duration="6783000" />
+      <workItem from="1574409541159" duration="9914000" />
     </task>
     <servers />
   </component>
